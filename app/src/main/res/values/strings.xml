@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IsPrimeQuiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="isPrime">Is Prime?</string>
+    <string name="Yes">YES</string>
+    <string name="No">NO</string>
+    <string name="newText">new Text</string>
+    <string name="next">NEXT</string>
+    <string name="title_activity_hint">HintActivity</string>
+    <string name="hint">Hint</string>
+    <string name="cheat">cheat</string>
+    <string name="show_hint">Show hint</string>
+    <string name="show_cheat">I want to cheat :p</string>
+    <string name="back">back</string>
+    <string name="title_activity_cheat">CheatActivity</string>
+</resources>

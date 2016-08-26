@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        tools:context="com.example.medhagupta.quizisprime.HintActivity"
+        >
+
+        <TextView
+
+            android:id="@+id/Quiz_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#FF4081"
+            android:padding="8dp"
+            android:text="@string/isPrime"
+            android:textColor="#FFF3E0"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/HintTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF4081"
+            android:textSize="20sp"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/Quiz_textView"
+            android:layout_centerHorizontal="true"
+            android:padding="24dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/ShowHintButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FF4081"
+                android:padding="8dp"
+                android:text="@string/show_hint"
+                android:textColor="#FFF3E0"
+                android:textSize="20sp"
+                android:layout_margin="30dp"/>
+
+            <Button
+                android:id="@+id/BackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FF4081"
+                android:padding="8dp"
+                android:text="@string/back"
+                android:textColor="#FFF3E0"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
